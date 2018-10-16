@@ -59,6 +59,3 @@ def buy(driver):
     message = driver.page_source.split('"center">')[2].split('</td>')[0]
     if "Please select" not in message:
         print message
-        
-if __name__ == '__main__':
-    print 'xxxxxx'
