@@ -92,6 +92,3 @@ def attackTarget(targets, driver):
         
 def between(a, b, driver):
     return int(driver.page_source.split(a)[1].split(b)[0].replace(',', ''))
-
-if __name__ == '__main__':
-    print 'ssssss'
